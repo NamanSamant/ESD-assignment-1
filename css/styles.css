@@ -1,0 +1,104 @@
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('/assets/hero-setion-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    color: white;
+    padding: 0 0 100px 0;
+    text-align: center;
+}
+
+.hero-section-text {
+    padding-top: 100px;
+}
+
+.navbar {
+    background-color: transparent;
+    z-index: 2;
+}
+
+.navbar-brand {
+    color: red;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.673);
+}
+
+.login {
+    color: rgba(255, 255, 255, 0.673);
+}
+
+.food-card {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 5%;
+}
+
+.background-shape {
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, #fed654 0%, #fa9703 100%);
+    border-radius: 50% 50% 0 0 / 40% 40% 0 0;
+    z-index: 0;
+}
+
+.food-card .card-body {
+    padding: 10px;
+    padding-top: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.food-card .card-title {
+    margin-bottom: 5px;
+}
+
+.food-card .card-text {
+    margin-bottom: 10px;
+}
+
+.food-card .price {
+    margin-right: 10px;
+}
+
+.food-card .rating {
+    margin-left: 10px;
+}
+
+.food-card .btn {
+    margin-top: 10px;
+}
+
+.food-card .card-img-top {
+    padding-top: 2%;
+    margin-left: 5.8%;
+    width: 200px;
+    height: 218px;
+    display: block;
+    width: 88%;
+    z-index: 1;
+    position: relative;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.15);
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+}
+
+.sign-up-card {
+    width: 60%;
+}
